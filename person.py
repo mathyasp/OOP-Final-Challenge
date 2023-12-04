@@ -22,7 +22,7 @@ class Person:
         and returns the output of the to_string() method.
         """
         new_order = Order(self.favorite_drink, self.name)
-        return new_order.to_string()
+        return new_order
 
 
 if __name__ == "__main__":
