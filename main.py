@@ -16,7 +16,7 @@ print(kevin.greeting)
 
 
 # Create an instance of CoffeeBar. Give your CoffeeBar a name.
-mathyas_bar = CoffeeBar('Mathyas\' Bar', )
+mathyas_bar = CoffeeBar('Mathyas\' Bar', kevin)
 print(f'Welcome to {mathyas_bar.name}!')
 
 
