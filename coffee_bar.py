@@ -3,9 +3,6 @@ This module defines the CoffeeBar class.
 """
 
 
-from person import Person
-
-
 class CoffeeBar:
     """
     Represents a coffee bar.
@@ -37,18 +34,3 @@ class CoffeeBar:
         """
         for order in self.orders_list:
             print(order.to_string())
-
-
-if __name__ == "__main__":
-    mathyas_bar = CoffeeBar('Mathyas\' Bar')
-    print(f'Welcome to {mathyas_bar.name}!')
-
-    amy = Person('Amy', 'Coffee')
-    bob = Person('Bob', 'Tea')
-    cat = Person('Cat', 'Milk')
-
-    mathyas_bar.place_order(amy.my_order())
-    mathyas_bar.place_order(bob.my_order())
-    mathyas_bar.place_order(cat.my_order())
-
-    mathyas_bar.process_orders()

@@ -13,6 +13,6 @@ class Barista(Person):
     Attributes:
         name (str): The name of the barista.
     """
-    def __init__(self, greeting, name, favorite_drink):
-        self.greeting = greeting
+    def __init__(self, name, greeting, favorite_drink=''):
         super().__init__(name, favorite_drink)
+        self.greeting = greeting
