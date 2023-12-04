@@ -1,5 +1,4 @@
 from person import Person
-from order import Order
 from coffee_bar import CoffeeBar
 from barista import Barista
 
@@ -29,6 +28,3 @@ mathyas_bar.place_order(cat.my_order())
 
 # Process all of the orders at your Coffeebar instance.
 mathyas_bar.process_orders()
-
-
-

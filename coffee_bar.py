@@ -34,4 +34,4 @@ class CoffeeBar:
         Processes all the orders placed at the coffee bar.
         """
         for order in self.orders_list:
-            print(order.to_string())
+            print(self.barista.greeting, order.to_string())
