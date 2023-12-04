@@ -13,8 +13,9 @@ class CoffeeBar:
     """
 
 
-    def __init__(self, name):
+    def __init__(self, name, barista):
         self.name = name
+        self.barista = barista
         self.orders_list = []
 
 
