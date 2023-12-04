@@ -3,7 +3,6 @@ This module defines the CoffeeBar class.
 """
 
 
-from order import Order
 from person import Person
 
 
