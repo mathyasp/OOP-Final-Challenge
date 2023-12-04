@@ -10,5 +10,10 @@ class Person:
         return new_order.to_string()
 
 if __name__ == "__main__":
-    person = Person('John', 'Coke')
-    print(person.my_order())
+    amy = Person('Amy', 'Coffee')
+    bob = Person('Bob', 'Tea')
+    cat = Person('Cat', 'Milk')
+
+    print(amy.my_order())
+    print(bob.my_order())
+    print(cat.my_order())
