@@ -10,8 +10,13 @@ bob = Person('Bob', 'Tea')
 cat = Person('Cat', 'Milk')
 
 
+# Make an instance of a barista named Kevin. Kevin's greeting is "Hey dude!"
+kevin = Barista('Kevin', greeting='Hey dude!')
+print(kevin.greeting)
+
+
 # Create an instance of CoffeeBar. Give your CoffeeBar a name.
-mathyas_bar = CoffeeBar('Mathyas\' Bar')
+mathyas_bar = CoffeeBar('Mathyas\' Bar', )
 print(f'Welcome to {mathyas_bar.name}!')
 
 
@@ -26,6 +31,4 @@ mathyas_bar.place_order(cat.my_order())
 mathyas_bar.process_orders()
 
 
-# Make an instance of a barista named Kevin. Kevin's greeting is "Hey dude!"
-kevin = Barista('Kevin', greeting='Hey dude!')
-print(kevin.greeting)
+
