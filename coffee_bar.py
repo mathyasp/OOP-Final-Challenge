@@ -51,3 +51,5 @@ if __name__ == "__main__":
     mathyas_bar.place_order(amy.my_order())
     mathyas_bar.place_order(bob.my_order())
     mathyas_bar.place_order(cat.my_order())
+
+    mathyas_bar.process_orders()
